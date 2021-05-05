@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 120%;
+	font-family: 'Roboto', sans-serif;
+	background: linear-gradient(to right, #64b3f4,#f1bdbd);
+}
+
+h1{
+    padding: 15px;
+    margin: 20px;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+form{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+}    
+
+#todo-list{
+    margin: auto;
+    margin-top: 50px;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form input{
+    width: 35%;
+    padding-left: 10px;
+    height: 2.5rem;
+    font-size: large;
+}
+
+.item, .edit-item{
+    width: 100%;
+    background-color: white;
+    height: 2rem;
+    margin-top: 10px;
+}
+
+input:focus {
+    border: 2px solid #555;
+    outline: none;
+}
+
+.item .text{
+        display: inline-block;
+        margin-top: 6px;
+        padding-left: 10px;
+        font-weight: 600;
+        font-size: large;
+}
+
+.done{
+    background-color: rgb(83, 248, 83);
+}
+
+.buttons{
+    float: right;
+    height: 100%;
+    display: flex;
+}
+
+button{
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+} 
+
+button:focus{
+    outline: none;
+}
+
+.times{
+    background: linear-gradient(to right, #f0c756 0%, #e6b93d 100%);
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    width: 4rem;
+}
+
+.dates{
+    background: linear-gradient(to right, #e6b93d  0%, #f19130 100%);
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    width: 6.3rem;
+}
+
+.done-button{
+    color:  #3ec282;
+    background-color:rgb(19, 16, 16);
+    font-size: large;
+    width: 5rem;
+}
+
+.edit-button{
+    background-color: rgb(71, 68, 255);   
+    width: 5rem;
+    font-size: large;
+}
+
+.remove-button{
+    background-color: #db2222;
+    width: 5rem;
+    font-size: large;
+}
+
+#add-button{
+    background-color: rgb(121, 121, 121);
+    width: 5rem;
+    height: 2.5rem;
+    font-size: large;
+}
+
+#editText{
+    width: 100%;
+    height: 2rem;
+    font-weight: 600;
+    font-size: large;
+}
+
+ .swal-button--confirm {
+    margin: 10px;
+    padding: 10px 20px;
+    color:rgb(56, 54, 54);
+    border-radius: 2px;
+    font-size: 15px;
+  } 
+
+  .swal-button--cancel {
+    padding: 10px 20px;
+    margin: 10px;
+    color: rgb(56, 54, 54);
+    border-radius: 2px;
+    font-size: 15px;
+  } 
