@@ -58,12 +58,17 @@ input:focus {
         display: inline-block;
         margin-top: 6px;
         padding-left: 10px;
-        font-weight: 600;
+        font-weight: bold;
         font-size: large;
 }
 
 .done{
-    background-color: rgb(83, 248, 83);
+    background-color: rgb(110, 255, 110); 
+}
+
+.done .text {
+    text-decoration: line-through;
+    opacity: 0.7;
 }
 
 .buttons{
